@@ -6,7 +6,7 @@ import android.os.Handler;
 import android.os.IBinder;
 
 /***
- * 该服务只用来让APP重启，生命周期也仅仅是只是重启APP。重启完即自我杀死
+ * 该服务只用来让APP重启，生命周期也仅仅是只是重启APP。
  * 记得在Manifest文件中添加KillSelfService
  */
 public class KillSelfService extends Service {

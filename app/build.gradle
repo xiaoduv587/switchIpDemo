@@ -32,5 +32,10 @@ dependencies {
 
     //为方便测试，集成你的项目可不接入此dialog
     implementation 'com.kongzue.dialog:dialog:2.3.9'
+    //加入网路框架
+    implementation 'com.xcheng:easyokhttp:2.5.0'
+    compile 'com.zhouyou:rxeasyhttp:2.1.0'
+
+
 
 }
